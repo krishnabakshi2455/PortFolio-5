@@ -3,6 +3,7 @@ import './Navbar.css'
 import MenuIcon from '@mui/icons-material/Menu';
 import MobileNav from './MobileNav/MobileNav';
 import CloseIcon from '@mui/icons-material/Close';
+
 const Navbar = () => {
 
   const [openMenu, setopenMenu] = useState(false)
