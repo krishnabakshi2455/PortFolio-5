@@ -9,17 +9,25 @@ import Typescript from '../../assets/typescript-icon.png'
 const Home = () => {
   return (
     <>
-     <section className='hero-container'>
+     <section className='hero-container' id="home">
         <div className='hero-content'>
           <h2>Building Digital Experience That Inspire</h2>
-          <p>Passionate Frontend Developer | Transforming Ideas Into Seamless And Visually Stunning Web Solutions</p>
+          <p>Passionate FullStack Developer | Transforming Ideas Into Seamless And Visually Stunning Web Solutions</p>
         </div>
 
         <div className='hero-img'>
           <div>
-            <div className='tech-icon'>
-              <img src={ReactIcon} alt="noicon" />
-            </div>
+
+           <div>
+              <div className='tech-icon'>
+                <img src={ReactIcon} alt="noicon" />
+              </div>
+
+              <div className='tech-icon'>
+                <img src={HtmlIcon} alt="nothing-tech-icon" />
+              </div>
+           </div>
+
 
             <img src={MainImg} alt="noimage" />
           </div>
