@@ -12,7 +12,7 @@ const Skills:React.FC = () => {
 
     return (
         <>
-            <section className='skills-container'>
+            <section className='skills-container' id='skills'>
                 <h2>Technical Proficiency</h2>
 
                 <div className='skills-content'>

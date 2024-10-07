@@ -2,7 +2,8 @@ import Navbar from './components/NavbarFolder/Navbar'
 import Home from './components/HomeFolder/Home'
 import './App.css'
 import Skills from './components/Skills/Skills'
-import Projects from './ProjectsFolder/Projects'
+import Projects from './components/ProjectsFolder/Projects'
+import ContactMe from './components/ContactMe/ContactMe'
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
         <Home />
         <Skills/>
         <Projects/>
+        <ContactMe/>
       </div>
     </>
   )

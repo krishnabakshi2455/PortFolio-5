@@ -14,13 +14,13 @@ const MobileNav: React.FC<props> = ({ isopen, togglemenu }) => {
                     <p style={{marginBottom:'3rem',fontSize:'1.5rem',fontFamily:"sans-serif"}}>Portfolio</p>
 
                     <ul>
-                        <li><a className='menu-item'>Home</a></li>
+                        <li><a href='#home' className='menu-item'>Home</a></li>
 
-                        <li><a className='menu-item'>Skills</a></li>
+                        <li><a href='#skills' className='menu-item'>Skills</a></li>
 
-                        <li><a className='menu-item'>My Projects</a></li>
+                        <li><a href='#myprojects' className='menu-item'>My Projects</a></li>
 
-                        <li><a className='menu-item'>Contact Me</a></li>
+                        <li><a href='#contactme' className='menu-item'>Contact Me</a></li>
 
                         <button className='contact-btn' onClick={() => { }}>Hire Me</button>
                     </ul>

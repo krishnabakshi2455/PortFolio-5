@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import './Projects.css'
-import { ProjectsData } from '../utils/data'
+import { ProjectsData } from '../../utils/data'
 import PorjectCard from './ProjectCardFolder/PorjectCard'
 import Slider from "react-slick";
 const Projects: React.FC = () => {
@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
     }
     return (
         <>
-            <section className='projects-container'>
+            <section className='projects-container' id='myprojects'>
                 <h5>My Projects</h5>
 
                 <div className='projects-content'>
