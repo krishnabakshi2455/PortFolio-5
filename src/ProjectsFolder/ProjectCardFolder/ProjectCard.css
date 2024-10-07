@@ -1,0 +1,69 @@
+.projectcard{
+    background: rgba(0, 0, 71, 0.408);
+    border-radius: 0.65rem;
+    border: 1.5px solid rgb(32, 32, 255);
+    padding: 1.5rem;
+    margin: 0 1rem;
+}
+
+.projectcard h6{
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+
+.project-title{
+    /* display: inline-block; */
+    font-size: 1.2rem;
+    font-weight: 400;
+    background: rgb(19, 19, 141);
+    width: fit-content;
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.3rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.project-title:hover{
+    background-color: black;
+    color: rgb(1, 1, 253);
+    transition: all 0.3s ease;
+}
+.project-livlink{
+    display: flex;
+    gap: 0.5rem;
+    margin: 0 0 10px 0;
+}
+.project-livlink a{
+    color: red;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.project-livlink a:hover {
+    color: rgb(1, 1, 253);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.project-img{
+    width: 350px;
+    height: 180px;
+    margin: 5px;
+}
+.project-description{
+    width: fit-content;
+    padding: 5px 0 5px 0;
+    margin: 0;
+}
+
+
+@media (max-width:768px) {
+    .projectcard{
+        margin: 0;
+    }
+    .project-title{
+        font-size: 0.95;
+    }
+    .project-description{
+        font-size: 0.75rem;
+    }
+}

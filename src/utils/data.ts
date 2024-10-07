@@ -80,40 +80,40 @@ interface projects {
 
 export const ProjectsData:projects[] = [
     {
-        image: "",
+        image: softskillimg,
         title:"FullStack Social Media website",
-        description:"",
-        LiveLink:""
+        description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam officia necessitatibus excepturi? Temporibus aperiam nobis cupiditate autem, voluptatum accusantium alias beatae consequatur rerum commodi!",
+        LiveLink:"no-link"
     },
     {
-        image: "",
+        image: softskillimg,
         title: "Money Tracking WebApp",
-        description: "",
-        LiveLink: ""
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam officia necessitatibus excepturi? Temporibus aperiam nobis cupiditate autem, voluptatum accusantium alias beatae consequatur rerum commodi!",
+        LiveLink: "no-link"
     },
     {
-        image: "",
+        image: softskillimg,
         title: "Code Editor",
-        description: "",
-        LiveLink: ""
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam officia necessitatibus excepturi? Temporibus aperiam nobis cupiditate autem, voluptatum accusantium alias beatae consequatur rerum commodi!",
+        LiveLink: "no-link"
     },
     {
-        image: "",
+        image: softskillimg,
         title: "Front-End Instagram Clone",
-        description: "",
-        LiveLink: ""
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam officia necessitatibus excepturi? Temporibus aperiam nobis cupiditate autem, voluptatum accusantium alias beatae consequatur rerum commodi!",
+        LiveLink: "no-link"
     },
     {
-        image: "",
+        image: softskillimg,
         title: "Music Website",
-        description: "",
-        LiveLink: ""
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam officia necessitatibus excepturi? Temporibus aperiam nobis cupiditate autem, voluptatum accusantium alias beatae consequatur rerum commodi!",
+        LiveLink: "no-link"
     },
     {
-        image: "",
+        image: softskillimg,
         title: "Tic Tac Toe Game",
-        description: "",
-        LiveLink: ""
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam officia necessitatibus excepturi? Temporibus aperiam nobis cupiditate autem, voluptatum accusantium alias beatae consequatur rerum commodi!",
+        LiveLink: "no-link"
     },
 
 ]
