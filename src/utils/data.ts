@@ -1,3 +1,7 @@
+import frontendimg from '../assets/front-end.png'
+import backendimg from '../assets/backend.png'
+import toolsimg from '../assets/tools.png'
+import softskillimg from '../assets/soft-skills.png'
 
 interface SkillDetail {
     skill: string;
@@ -9,10 +13,7 @@ interface skills {
     skills: SkillDetail[]
 
 }
-import frontendimg from '../assets/front-end.png'
-import backendimg from '../assets/backend.png'
-import toolsimg from '../assets/tools.png'
-import softskillimg from '../assets/soft-skills.png'
+
 
 export const SKILLSDATA: skills[] = [
     {
@@ -24,6 +25,7 @@ export const SKILLSDATA: skills[] = [
             { skill: "JavaScript", percentage: "75%" },
             { skill: "TypeScript", percentage: "80%" },
             { skill: "React.JS", percentage: "77%" },
+            { skill: "FireBase", percentage: "65%" },
             { skill: "TailwindCss", percentage: "60%" },
             { skill: "Material UI", percentage: "55%" },
         ]
@@ -65,5 +67,53 @@ export const SKILLSDATA: skills[] = [
 
         ]
     }
+
+]
+
+
+interface projects {
+    image:string
+    title: string
+    description:string
+    LiveLink:string
+}
+
+export const ProjectsData:projects[] = [
+    {
+        image: "",
+        title:"FullStack Social Media website",
+        description:"",
+        LiveLink:""
+    },
+    {
+        image: "",
+        title: "Money Tracking WebApp",
+        description: "",
+        LiveLink: ""
+    },
+    {
+        image: "",
+        title: "Code Editor",
+        description: "",
+        LiveLink: ""
+    },
+    {
+        image: "",
+        title: "Front-End Instagram Clone",
+        description: "",
+        LiveLink: ""
+    },
+    {
+        image: "",
+        title: "Music Website",
+        description: "",
+        LiveLink: ""
+    },
+    {
+        image: "",
+        title: "Tic Tac Toe Game",
+        description: "",
+        LiveLink: ""
+    },
 
 ]
